@@ -17,7 +17,7 @@ const useResults = () => {
 const ResultContextProvider = ({ children }) => {
     const [results, setResults] = useState([]);
     const [loading, setLoading] = useState(false);
-    const [searchTerm, setSearchTerm] = useState('russia');
+    const [searchTerm, setSearchTerm] = useState('');
   
     const getResults = async (url) => {
       setLoading(true);

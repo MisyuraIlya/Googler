@@ -25,9 +25,6 @@
     justify-content: left;
 }
 
-.search_container{
-
-}
 .form {
   margin-top: 50px;
 }
@@ -50,7 +47,6 @@
     padding: 24px 20px;
     font-size: 20px;
     color: #cac7ff;
-
 }
 
 ::placeholder {
@@ -59,7 +55,7 @@
 
 .search-bar button img{
     width: 25px;
-
+    margin-left: 12px;
 }
 
 .search-bar button {

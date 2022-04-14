@@ -5,7 +5,7 @@ const links = [
     { url: '/search', text: 'All'},
     { url: '/image', text: 'images'},
     { url: '/videos', text: 'videos'},
-    { url: '/news', text: 'news'},
+    { url: '/news', text: `news`},
 ];
 
 const Links = () => {

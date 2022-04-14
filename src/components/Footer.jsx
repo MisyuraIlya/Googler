@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <hr/>
-            <p>2022 Rachel inc.</p>
+            <p className='text-blue-300 p-10'>2022 React app created by Ilya Misyura.</p>
         </div>
     );
 };
